@@ -21,6 +21,13 @@ let App = ()=> {
             para calcular o peso ideal de cada pessoa;
           </p>
 
+          <input 
+            type="number"
+            placeholder='Digite sua altura. Ex:1.50 (em metros)'
+            value={}
+            onChange={}
+          />
+
         </div>
         <div className={styles.rightSide}>
 
