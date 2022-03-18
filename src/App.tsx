@@ -14,7 +14,12 @@ let App = ()=> {
       <div className={styles.container}>
         <div className={styles.leftSide}>
 
-          
+          <h1>Calcule o seu IMC</h1>
+          <p>
+            IMC é a sigla para Índice de Massa Corpórea. 
+            Parâmetro adotado pela Organização Mundial de Saúde 
+            para calcular o peso ideal de cada pessoa;
+          </p>
 
         </div>
         <div className={styles.rightSide}>
