@@ -1,7 +1,10 @@
+import { useState } from 'react';
 import styles from './App.module.css';
 import poweredImage from "./assets/powered.png";
 
 let App = ()=> {
+  let [heightField, setHeightField] = useState<number>(0);
+
   return(
     <div className={styles.main}>
 
@@ -24,8 +27,8 @@ let App = ()=> {
           <input 
             type="number"
             placeholder='Digite sua altura. Ex:1.50 (em metros)'
-            value={}
-            onChange={}
+            value={heightField > 0 ? heightField : ''}
+            onChange={e => setHeightField(parseFloat(e.target.value))}
           />
 
         </div>
