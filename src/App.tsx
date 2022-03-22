@@ -6,6 +6,14 @@ let App = ()=> {
   let [heightField, setHeightField] = useState<number>(0);
   let [weightField, setWeightField] = useState<number>(0);
 
+  let handleCalculateButton = ()=>{
+    if(heightField && weightField){
+
+    } else{
+      alert("Digite todos os campos.")
+    }
+  }
+
   return(
     <div className={styles.main}>
 
@@ -39,6 +47,7 @@ let App = ()=> {
             onChange={e => setWeightField(parseFloat(e.target.value))}
           />
 
+          <button onClick={handleCalculateButton}>Calcular IMC</button>
         </div>
         <div className={styles.rightSide}>
 
