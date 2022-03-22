@@ -3,6 +3,7 @@ export type level = {
     color: string;
     icon: 'down' | 'up';
     imc: number[];
+    yourImc?: number;
 };
 
 export let levels: level[] = [
@@ -16,6 +17,11 @@ export let calculateImc = (height:number, weight:number)=>{
     let imc = weight / (height * height);
 
     for (let i in levels){
-        imc >= levels[i].imc[0] && imc <= levels[i].imc[0] ? levels[i] : null;
+        if(imc >= levels[i].imc[0] && imc <= levels[i].imc[0]){
+            levels[i].yourImc = imc;
+            return levels[i];
+        };
     }
+
+    return null;
 };
