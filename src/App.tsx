@@ -51,7 +51,12 @@ let App = ()=> {
           <button onClick={handleCalculateButton}>Calcular IMC</button>
         </div>
         <div className={styles.rightSide}>
+          <div className={styles.grid}>
+            {levels.map( (item, key)=>{
+                <div key={key}>{item.title}</div>
+            } )}
 
+          </div>
         </div>
       </div>
     </div>
