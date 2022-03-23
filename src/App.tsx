@@ -2,6 +2,7 @@ import { useState } from 'react';
 import styles from './App.module.css';
 import poweredImage from "./assets/powered.png";
 import { levels, calculateImc, level} from './helpers/imc';
+import leftArrowImage from './assets/leftArrowImage.png';
 import {GridItem} from './components/GridItem';
 
 let App = ()=> {
@@ -15,7 +16,13 @@ let App = ()=> {
     } else{
       alert("Digite todos os campos.")
     }
-  }
+  };
+
+  let handleBackButton = ()=>{
+    setToShow(null);
+    setHeightField(0);
+    setWeightField(0);
+  };
 
   return(
     <div className={styles.main}>
@@ -64,7 +71,9 @@ let App = ()=> {
 
           {toShow &&
             <div className={styles.rightBig}>
-              <div className={styles.rightArrow}></div>
+              <div className={styles.rightArrow} onClick={handleBackButton}>
+                <img src={leftArrowImage} alt="" width={25} />
+              </div>
               <GridItem item={toShow} />
             </div>
           }

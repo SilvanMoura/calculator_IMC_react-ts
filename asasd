@@ -1,0 +1,83 @@
+[33mcommit 70e3cc2109ec127b2b64586809dffacaee1e4202[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: Silvan Moura <89323396+SilvanMoura@users.noreply.github.com>
+Date:   Wed Mar 23 06:09:58 2022 -0300
+
+    Finalizando lógica de funcionamento do IMC
+
+[33mcommit ba7284ed2b1f5b61c82ab0c4d40e8a6ce7445d2d[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: Silvan Moura <89323396+SilvanMoura@users.noreply.github.com>
+Date:   Wed Mar 23 05:12:50 2022 -0300
+
+    Criando e estilizando component GridItem e estilizando
+
+[33mcommit 916b2b76ab342f92b141c65c113bd761f3ab4669[m
+Author: Silvan Moura <89323396+SilvanMoura@users.noreply.github.com>
+Date:   Tue Mar 22 21:27:04 2022 -0300
+
+    Iniciando a etapa de criação de rightSide
+
+[33mcommit ea98521d261dc189f8b054d92a59c4a00b668304[m
+Author: Silvan Moura <89323396+SilvanMoura@users.noreply.github.com>
+Date:   Tue Mar 22 19:42:01 2022 -0300
+
+    import levels e calculateImc em App.tsx
+
+[33mcommit 6b94bf285ac37ff9b1e5cb3c012809fb86eb23d2[m
+Author: Silvan Moura <89323396+SilvanMoura@users.noreply.github.com>
+Date:   Tue Mar 22 19:33:18 2022 -0300
+
+    Criando arquivo imc.ts e código da lógica de cálculo do IMC
+
+[33mcommit 082b5a8e195f6583861535bc11f3b270be838022[m
+Author: Silvan Moura <89323396+SilvanMoura@users.noreply.github.com>
+Date:   Tue Mar 22 19:25:54 2022 -0300
+
+    Completando estilização de leftSide
+
+[33mcommit b7d15ce17a3b3b48c9f374dfa6d0d2b12a973904[m
+Author: Silvan Moura <89323396+SilvanMoura@users.noreply.github.com>
+Date:   Fri Mar 18 17:57:56 2022 -0300
+
+    Criando input de peso e sua lógica inicial
+
+[33mcommit d23045b6e229b93fa02c1320e8905a5534bae6dd[m
+Author: Silvan Moura <89323396+SilvanMoura@users.noreply.github.com>
+Date:   Fri Mar 18 17:44:04 2022 -0300
+
+    Criando a lógica inicial da entrada de altura
+
+[33mcommit a41651c35efb618148004b7bd8d201c5152b9b1a[m
+Author: Silvan Moura <89323396+SilvanMoura@users.noreply.github.com>
+Date:   Fri Mar 18 14:59:11 2022 -0300
+
+    Iniciando criação de input para altura
+
+[33mcommit 644c0cbcce112a555f3becf67bc6d31d16ff393e[m
+Author: Silvan Moura <89323396+SilvanMoura@users.noreply.github.com>
+Date:   Fri Mar 18 14:51:13 2022 -0300
+
+    Add título e parágrafo em leftSide
+
+[33mcommit b2b7827e069940aea0a9d24cd987a19a4bfa306b[m
+Author: Silvan Moura <89323396+SilvanMoura@users.noreply.github.com>
+Date:   Fri Mar 18 14:42:11 2022 -0300
+
+    estilização do container
+
+[33mcommit ef2dd28defb6fcc9e8ea1418eade6dcd15012720[m
+Author: Silvan Moura <89323396+SilvanMoura@users.noreply.github.com>
+Date:   Wed Mar 16 17:37:20 2022 -0300
+
+    Finalizando a base da estrutura do projeto
+
+[33mcommit 1593c11bda7b02fee4c7ccbcdd6385a5b142a3b6[m
+Author: Silvan Moura <89323396+SilvanMoura@users.noreply.github.com>
+Date:   Wed Mar 16 15:37:04 2022 -0300
+
+    Adicionando imagens ao projeto
+
+[33mcommit 89610061be8f43165c210122f99938277bb78004[m
+Author: Silvan Moura <89323396+SilvanMoura@users.noreply.github.com>
+Date:   Wed Mar 16 15:33:26 2022 -0300
+
+    Base inicial do projeto
